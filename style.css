@@ -1,0 +1,82 @@
+/* first section  */
+.h1-bank{
+    text-align: center;
+    font-size: 44px;
+    color: purple;
+    font-weight: 700;
+}
+
+.bank-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-section-div{
+    padding: 0 30px;
+    width: 57%;
+    margin: 10px;
+    color: white;
+}
+.first-div-1{
+    background-color: yellowgreen;
+}
+.first-div-2{
+    background-color: tomato;
+}
+.first-div-3{
+    background-color: cornflowerblue;
+}
+.h3-div{
+    font-size: 25px;
+}
+.h2-div{
+    font-size: 35px;
+}
+
+/* 2nd section  */
+
+.second-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-section-div{    
+    margin: 10px;
+    padding: 10px 20px;
+    width: 100%;
+}
+.second-div-1{
+    background-color: wheat;
+}
+.second-div-2{
+    background-color: aquamarine;
+}
+.input-class{
+    margin-bottom: 10px;
+    width: 300px;
+    padding: 8px 6px;
+    font-weight: 700;
+}
+
+.second-button{
+    padding: 8px 25px;
+    border: 0;
+    background-color: blueviolet;
+    font-weight: 700;
+    color: white;
+}
+.second-button:hover{
+    text-decoration: underline;
+}
+
+
+/* mobile  */
+@media only screen and (max-width:688px) {
+    .bank-section{
+        flex-wrap: wrap;
+    }
+    .second-section{
+        flex-wrap: wrap;
+    }
+}

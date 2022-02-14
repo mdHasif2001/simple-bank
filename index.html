@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Bank</title>
+</head>
+<body>
+    <header>
+        <h1 class="h1-bank">My Bank</h1>
+    </header>
+    <main>
+        <section class="bank-section">
+            <div class="first-section-div first-div-1">
+                <h3 class="h3-div">
+                    Deposit
+                </h3>
+                <h2 class="h2-div">
+                    $<span id="deposit-total">00</span>
+                </h2>
+            </div>
+            <div class="first-section-div first-div-2">
+                <h3 class="h3-div">
+                    Withdraw
+                </h3>
+                <h2 class="h2-div">
+                    $<span id="withdraw-total">00</span>
+                </h2>
+            </div>
+            <div class="first-section-div first-div-3">
+                <h3 class="h3-div">
+                    Balance
+                </h3>
+                <h2 class="h2-div">
+                    $<span id="balance-total">2500</span>
+                </h2>
+            </div>
+        </section>
+    
+        <section class="second-section">
+            <div class="second-section-div second-div-1">
+                <h3 class="h3-div">
+                    Please Deposit
+                </h3>
+                
+                <input type="text" placeholder="$ amount you want to deposit" class="input-class" id="deposit-input">
+                <br>
+                <button class="second-button" id="deposit-button">Deposit</button>
+            </div>
+            <div class="second-section-div second-div-2">
+                <h3 class="h3-div">
+                    Please Withdraw
+                </h3>
+                
+                <input type="text" placeholder="$ amount you want to deposit" class="input-class"  id="withdraw-input">
+                <br>
+                <button class="second-button"  id="withdraw-button">Withdraw</button>
+            </div>
+        </section>
+    
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
